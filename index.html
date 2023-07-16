@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Flipper</title>
+  <style>
+    body {
+      display: inline-flexbox;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #1a2107;
+    }
+    #color-display {
+      font-size: 30px;
+      padding: 40px;
+      border-radius: 5px;
+      border: 1px solid blue;
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div id="color-display"> Click below to change the color </div>
+  <button onclick="changeColor()">Change Color</button>
+  <style>
+    button {
+	    background-color: yellowgreen;
+	    color: rgb(255, 255, 255);
+	    width: 150px;
+	    height: 40px;
+    }
+  </style>
+
+  <script src="script.js"></script>
+</body>
+</html>
